@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/vectors/line-web-concept-for-computer-science-vector-id615749406",
+      "name": "Computer Science",
+      "details": "This course provides an introduction to the fundamentals of computer science.",
+      "price": 10000,
+      "hours": 1
+    },
+    {
+      "id": 2,
+      "img": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220509120600/Learn-Data-Structures-and-Algorithms-Easily.gif",
+      "name": "Data Structures",
+      "details": "Explore advanced data structures and algorithms used in computer science.",
+      "price": 20000,
+      "hours": 4
+    },
+    {
+      "id": 3,
+      "img": "https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg",
+      "name": "Web Development",
+      "details": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
+      "price": 17500,
+      "hours": 3
+    },
+    {
+      "id": 4,
+      "img": "https://miro.medium.com/v2/resize:fit:1400/0*s_EoYqTMssUPWsBe.jpg",
+      "name": "Machine Learning",
+      "details": "Get started with machine learning and explore its applications.",
+      "price": 16200,
+      "hours": 2
+    },
+    {
+      "id": 5,
+      "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--ukRG1SUS--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wthncczwj1kfw894zfy.jpg",
+      "name": "Database Management",
+      "details": "Learn about database design, SQL, and database management.",
+      "price": 30000,
+      "hours": 1
+    },
+    {
+      "id": 6,
+      "img": "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29mdHdhcmUlMjBlbmdpbmVlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+      "name": "Software Engineering",
+      "details": "Explore software engineering best practices and methodologies.",
+      "price": 26900,
+      "hours": 7
+    },
+    {
+      "id": 7,
+      "img": "https://play-lh.googleusercontent.com/9r0Z_pXreeESvnIbDO8IGD0pi6yC9RIR6h0sccNW49IjzrQwMNfKEDPxlj4rGizbrA",
+      "name": "Computer Networks",
+      "details": "Learn about computer networking and network protocols.",
+      "price": 19900,
+      "hours": 3
+    },
+    {
+      "id": 8,
+      "img": "https://imageio.forbes.com/specials-images/imageserve/647994d97ff0e466a60e1090/The-15-Biggest-Risks-Of-Artificial-Intelligence/960x0.jpg?height=473&width=711&fit=bounds",
+      "name": "Artificial Intelligence",
+      "details": "Explore the field of artificial intelligence and its applications.",
+      "price": 29950,
+      "hours": 4
+    },
+    {
+      "id": 9,
+      "img": "https://academy-wp-media-prod.storage.googleapis.com/wp-content/uploads/2023/02/09232704/cybersec_thumbnail_NEW.jpg",
+      "name": "Cybersecurity Fundamentals",
+      "details": "Learn about cybersecurity concepts and practices.",
+      "price": 10000,
+      "hours": 2
+    }
+  ]

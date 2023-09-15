@@ -1,0 +1,19 @@
+/* .card{
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: azure;
+  
+   
+  
+}
+.card img{
+    width: 300px;
+    height: 300px;
+} */
+.card1{
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
