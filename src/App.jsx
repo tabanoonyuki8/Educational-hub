@@ -8,11 +8,16 @@ import Name from './Components/Name/Name'
 function App() {
 //Courses name state
 const [name1,setName]=useState([]);
-
-const [creditTime,setCreditTime]=useState(20)//set time state
+//set remaing hour state
+const [creditTime,setCreditTime]=useState(20)
+//set credit hour state
 const [creditTime1,setCreditTime1]=useState(0)
+//set price state
+const [prices,setPrices]=useState(0)
+
 //button handle for select courses
-const HandleBtn=(course,time,id)=>{
+const HandleBtn=(course,time,id,price)=>{
+
 //card handle
  const newName=[...name1,course];
 const exitName=name1.map(db =>db.id)
@@ -21,6 +26,9 @@ alert('You can select one time')
 }
 else{
   setName(newName);
+    //price logic
+    const newPrices=prices+price;
+    setPrices(newPrices);
 }
 
  const newTime=creditTime-time;
@@ -54,7 +62,7 @@ else{
       <div className='md:flex m-20'>
       <Courses HandleBtn={HandleBtn}
       ></Courses>
-      <Name  creditTime1={creditTime1}  creditTime={creditTime} name1 ={name1}></Name>
+      <Name prices={prices}  creditTime1={creditTime1}  creditTime={creditTime} name1 ={name1}></Name>
       </div>
      
       
