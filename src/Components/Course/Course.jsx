@@ -4,7 +4,8 @@ import { FaDollarSign } from 'react-icons/fa';
 import { FaBookOpen } from 'react-icons/fa';
 
 const Course = ({course,HandleBtn}) => {
-    const {name,img,details,hours,price}=course;
+    //props 
+    const {name,img,details,hours,price,id}=course;
     return (
         <div >
           
@@ -29,7 +30,7 @@ const Course = ({course,HandleBtn}) => {
                         </div>
                     </div>
                     
-                    <button onClick={() => HandleBtn(course,hours)} className="bg-sky-500 text-2xl text-white  mr-20 ml-11 pl-20 pr-20 pt-2 pb-2 rounded-xl hover:bg-sky-700">Select</button>
+                    <button onClick={() => HandleBtn(course,hours,id)} className="bg-sky-500 text-2xl text-white  mr-20 ml-11 pl-20 pr-20 pt-2 pb-2 rounded-xl hover:bg-sky-700">Select</button>
             </div>
            
         </div>

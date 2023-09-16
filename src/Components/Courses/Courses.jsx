@@ -4,7 +4,9 @@ import Course from "../Course/Course";
 import './Courses.css'
 import PropTypes from 'prop-types';
 const Courses = ({HandleBtn}) => {
+    //Courses card state
     const [courses,setCourse]=useState([]);
+    //data load
     useEffect(()=>{
         fetch('Courses.json')
         .then(res => res.json())
@@ -14,6 +16,7 @@ const Courses = ({HandleBtn}) => {
         <div >
            
             <div className="md:w-2/3 card1">
+            {/* map each course */}
                 {
                     courses.map(course => <Course
                     key={course.id}
